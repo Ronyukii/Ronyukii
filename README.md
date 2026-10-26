@@ -1,6 +1,6 @@
 # Hi, I'm Ronald Gallet
 
-Final-year Computer Science student at **Universiti Teknologi MARA (UiTM)**.
+Final-year Computer Science (Hons.) Multimedia Computing student at **Universiti Teknologi MARA (UiTM)**.
 I build full-stack web apps, applied prediction systems, and the occasional game or AI tool.
 
 ## What I work on
