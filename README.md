@@ -56,7 +56,7 @@ A native Android contact and relationship manager built to eliminate forgotten m
 ## Other work
 
 - **osu-beatmap-assistant:** a bilingual (English/Malay) Botpress chatbot that recommends beatmaps using the osu! API
-- **Local LLMs:** benchmarked quantized models (DeepSeek-R1 14B, Qwen) with Ollama and Open-WebUI, and gave a live tutorial on setting them up
+- **Local LLMs:** benchmarked quantized models (DeepSeek-R1 14B, Qwen) with Ollama and Open-WebUI
 
 ## Get in touch
 
