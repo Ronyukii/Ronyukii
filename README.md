@@ -1,16 +1,63 @@
-## Hi there 👋
+# Hi, I'm Ronald Gallet
 
-<!--
-**Ronyukii/Ronyukii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Final-year Computer Science student at **Universiti Teknologi MARA (UiTM)**.
+I build full-stack web apps, applied prediction systems, and the occasional game or AI tool.
 
-Here are some ideas to get you started:
+## What I work on
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Full-stack web:** React, FastAPI, PostgreSQL, with live data from external sources
+- **Applied AI:** CNN image classification, LLM-powered apps, and running local models with Ollama
+- **Mobile and games:** Flutter, Unity (C#)
+- **Linux:** I run a customized Arch Linux setup (Hyprland, Quickshell)
+
+## Tech stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=csharp&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=archlinux&logoColor=white)
+
+## Featured projects
+
+### 🖥️ EcoBuild: PC builder and decision-support system *(Final Year Project)*
+A web app that helps Malaysian users choose PC parts within a budget. It combines compatibility checking, Shopee/Lazada price scraping, a budget optimizer, and heuristic FPS and thermal estimates. Every price is labelled **LIVE**, or **MSRP BASELINE** so unverified data is never presented as real.
+**Stack:** React 18, Vite, Tailwind CSS, FastAPI, SQLAlchemy, PostgreSQL, Playwright · **Deployed on** Vercel, Render, Neon
+[Repository](https://github.com/Ronyukii/ecobuild.git) · [Live demo](https://ecobuild-delta.vercel.app/)
+
+### 🚗 CarTypeRecognizer: image classification with a CNN
+A convolutional neural network that classifies car images into 5 types, evaluated with confusion matrices and per-class precision, recall, and F1-score. Includes a Tkinter desktop app that shows ranked confidence scores for uploaded images.
+**Stack:** Python, TensorFlow/Keras, scikit-learn, Matplotlib, Tkinter
+[Repository](https://github.com/Kyran-Git/CarTypeRecognizer.git)
+
+### 🧠 ai-quiz-generator: mobile app with generative AI
+A cross-platform app that generates quizzes using the Google Gemini API, backed by a Python API. My team work on the project's SRS and SDD documents.
+**Stack:** Flutter (Dart), Python, Google Gemini API
+[Repository](https://github.com/Kyran-Git/AIQuizGenerator.git)
+
+### 🚀 CosmoFighter: 2D bullet-hell game
+A top-down shoot-'em-up where I designed the core gameplay, enemy wave logic, and projectile spawners, and produced the UI storyboard.
+**Stack:** Unity, C#
+[Repository](https://github.com/Ronyukii/CosmoFighter.git)
+
+### 👥 BuddyApplication: native Android contact & milestone manager
+A native Android contact and relationship manager built to eliminate forgotten milestones by automating birthday greetings through direct WhatsApp intent integration. Features full CRUDS operations backed by local SQLite persistence, dynamic search filtering, and visual reporting dashboards that map gender demographics and monthly birthday distributions.
+**Stack:** Java, Android SDK, SQLite, XML, ViewBinding, MPAndroidChart
+[Repository](https://github.com/Ronyukii/BuddyApplication.git)
+
+## Other work
+
+- **osu-beatmap-assistant:** a bilingual (English/Malay) Botpress chatbot that recommends beatmaps using the osu! API
+- **Local LLMs:** benchmarked quantized models (DeepSeek-R1 14B, Qwen) with Ollama and Open-WebUI, and gave a live tutorial on setting them up
+
+## Get in touch
+
+- Email: rgal4527@gmail.com
