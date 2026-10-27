@@ -45,12 +45,15 @@ I build full-stack web apps, applied prediction systems, and the occasional game
 ## Featured projects
 
 ### 🖥️ A Web-Based PC Configuration Recommendation System Using a Heuristic Approach *(Final Year Project)*
-A web app that helps Malaysian users choose PC parts within a budget. It combines compatibility checking, Shopee/Lazada price scraping, a budget optimizer, and heuristic FPS and thermal estimates. Every price is labelled **LIVE**, or **MSRP BASELINE** so unverified data is never presented as real.
+A web-based Decision Support System (DSS) and PC configuration platform designed to help Malaysians plan and build custom desktop PCs without the guesswork or fear of buying the wrong parts. Instead of forcing buyers to juggle separate websites for price checks, benchmarks, and compatibility, EcoBuild brings everything together in one place with prices in Ringgit (RM).
+Users can pick their parts or simply enter a budget, and the system automatically recommends the best-performing, fully compatible setup. Before spending any money, buyers can see estimated in-game frame rates (FPS) and operating temperatures calibrated for Malaysia’s warm climate, while built-in safety checks catch common physical mistakes—like graphics cards being too long for a case, coolers blocking tall RAM, or power supplies lacking the right cables. To complete the picture, EcoBuild provides direct shopping links to verified local sellers on Lazada and Shopee, and even calculates your estimated monthly TNB electricity bill so you know the true cost to run your PC.
+
 **Stack:** React 18, Vite, Tailwind CSS, FastAPI, SQLAlchemy, PostgreSQL, Playwright · **Deployed on** Vercel, Render, Neon
 [Repository](https://github.com/Ronyukii/ecobuild.git) · [Live demo](https://ecobuild-delta.vercel.app/)
 
 ### 🚗 CarTypeRecognizer: image classification with a CNN
-A convolutional neural network that classifies car images into 5 types, evaluated with confusion matrices and per-class precision, recall, and F1-score. Includes a Tkinter desktop app that shows ranked confidence scores for uploaded images.
+Car Type Recognizer, an automated image classification system capable of categorizing vehicles into five distinct classes: Microcar, Pickup Trucks, Sedan, Sports, and Van. Utilizing Python, TensorFlow, and Keras, a Convolutional Neural Network (CNN) was built from scratch and trained on a custom dataset of over 250 validated images, utilizing a strict 70/30 training and validation split. To maximize accuracy and robustness on a limited dataset, advanced techniques such as Data Augmentation, Batch Normalization, and Label Smoothing were implemented to prevent overfitting and overconfident misclassifications. Finally, the trained deep learning model was integrated into a user-friendly Graphical User Interface (GUI) using Tkinter, allowing end-users to upload unseen images and receive real-time vehicle classifications alongside realistic confidence percentages.
+
 **Stack:** Python, TensorFlow/Keras, scikit-learn, Matplotlib, Tkinter
 [Repository](https://github.com/Kyran-Git/CarTypeRecognizer.git)
 
@@ -61,17 +64,20 @@ AI Quiz Generator is a cross-platform (mobile and web) application built using t
 [Repository](https://github.com/Kyran-Git/AIQuizGenerator.git)
 
 ### 🚀 CosmoFighter: 2D bullet-hell game
-A top-down shoot-'em-up where I designed the core gameplay, enemy wave logic, and projectile spawners, and produced the UI storyboard.
+CosmoFighter is an endless 2D retro arcade space shooter where players dodge hazards and blast through incoming waves of alien ships. The game features smooth, responsive controls, and fair combat—enemies smoothly glide onto the screen with temporary protection so players can’t instantly wipe them out before they attack. As players survive, the challenge naturally increases from basic scout ships to aggressive fleets and multi-stage boss fights; defeating a boss doesn't end the run, but instead resets the loop with even faster, denser waves to test true endurance. Players can choose between Easy and Hard difficulty modes, pause the action at any time, and track both their current run and all-time personal best scores on the main menu and game over screens.
+
 **Stack:** Unity, C#
 [Repository](https://github.com/Ronyukii/CosmoFighter.git)
 
 ### 👥 BuddyApplication: native Android contact & milestone manager
 A native Android contact and relationship manager built to eliminate forgotten milestones by automating birthday greetings through direct WhatsApp intent integration. Features full CRUDS operations backed by local SQLite persistence, dynamic search filtering, and visual reporting dashboards that map gender demographics and monthly birthday distributions.
+
 **Stack:** Java, Android SDK, SQLite, XML, ViewBinding, MPAndroidChart
 [Repository](https://github.com/Ronyukii/BuddyApplication.git)
 
 ### 🎓 IRSS Mentors: Academic Mentorship Management System
 IRSS Mentors is an enterprise-grade Java web application engineered to centralize and automate faculty mentorship coordination, consultation scheduling, and student academic performance tracking within academic institutions. Built strictly upon the Model-View-Controller (MVC) and Data Access Object (DAO) architectural patterns using Java Servlets, JSP, JSTL, JDBC, and an Apache Derby (Java DB) relational database, the system enforces secure Role-Based Access Control (RBAC) across three dedicated portals: Admins manage full mentor CRUD operations, dynamic mentee-to-mentor assignments, and academic performance updates supported by real-time search and multi-attribute sorting; Mentors oversee their assigned student rosters and maintain consultation availability schedules; and Mentees can self-register, monitor their semester GPA history, and view mentor availability slots for consultation bookings. By integrating parameterized queries to prevent SQL injection, the Post-Redirect-Get (PRG) pattern to eliminate duplicate form submissions, and a modern glassmorphic dark-themed interface, the platform delivers a secure, robust, and scalable solution that bridges communication and administrative workflows between faculty supervisors and students.
+
 **Stack:** Java (Java EE), Servlets, JSP, JSTL, JDBC, Apache Derby (Java DB), HTML5, CSS3, MVC, DAO
 [Repository](https://github.com/Kyran-Git/IRSS-Mentors.git)
 
