@@ -69,7 +69,7 @@ A native Android contact and relationship manager built to eliminate forgotten m
 **Stack:** Java, Android SDK, SQLite, XML, ViewBinding, MPAndroidChart
 [Repository](https://github.com/Ronyukii/BuddyApplication.git)
 
-### IRSS Mentors – Academic Mentorship Management System
+### 🎓 IRSS Mentors – Academic Mentorship Management System
 IRSS Mentors is an enterprise-grade Java web application engineered to centralize and automate faculty mentorship coordination, consultation scheduling, and student academic performance tracking within academic institutions. Built strictly upon the Model-View-Controller (MVC) and Data Access Object (DAO) architectural patterns using Java Servlets, JSP, JSTL, JDBC, and an Apache Derby (Java DB) relational database, the system enforces secure Role-Based Access Control (RBAC) across three dedicated portals: Admins manage full mentor CRUD operations, dynamic mentee-to-mentor assignments, and academic performance updates supported by real-time search and multi-attribute sorting; Mentors oversee their assigned student rosters and maintain consultation availability schedules; and Mentees can self-register, monitor their semester GPA history, and view mentor availability slots for consultation bookings. By integrating parameterized queries to prevent SQL injection, the Post-Redirect-Get (PRG) pattern to eliminate duplicate form submissions, and a modern glassmorphic dark-themed interface, the platform delivers a secure, robust, and scalable solution that bridges communication and administrative workflows between faculty supervisors and students.
 **Stack:** Java (Java EE), Servlets, JSP, JSTL, JDBC, Apache Derby (Java DB), HTML5, CSS3, MVC, DAO
 [Repository](https://github.com/Kyran-Git/IRSS-Mentors.git)
