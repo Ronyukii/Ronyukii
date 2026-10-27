@@ -55,7 +55,8 @@ A convolutional neural network that classifies car images into 5 types, evaluate
 [Repository](https://github.com/Kyran-Git/CarTypeRecognizer.git)
 
 ### 🧠 ai-quiz-generator: mobile app with generative AI
-A cross-platform app that generates quizzes using the Google Gemini API, backed by a Python API. My team work on the project's SRS and SDD documents.
+AI Quiz Generator is a cross-platform (mobile and web) application built using the Flutter framework. Its primary goal is to automate and simplify the creation of educational assessments. By integrating with the Google Gemini API, the system can take a user-provided topic or text passage and dynamically generate structured multiple-choice or short-answer questions along with answers and explanations. Key features of the system include user authentication, interactive quiz taking, quiz editing, saving/exporting quizzes to PDF, and data persistence using a Microsoft SQL Server backend.
+
 **Stack:** Flutter (Dart), Python, Google Gemini API
 [Repository](https://github.com/Kyran-Git/AIQuizGenerator.git)
 
